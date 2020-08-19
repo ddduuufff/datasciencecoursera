@@ -6,7 +6,9 @@ eric_packages <- c(
   "stringr",
   "lubridate",
   "ggplot2",
-  "tidyverse"
+  "tidyverse",
+  "purrr",
+  "shiny"
 )#We create a variable where we indicating that we select the ones that we do not have installed.                     
 install.lib <- eric_packages[!eric_packages %in% installed.packages()]
 #With a loop we install the libraries that we do not have.
