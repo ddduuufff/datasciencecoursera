@@ -16,3 +16,6 @@ for(lib in install.lib) install.packages(lib,dependences=TRUE)
 #Load the libraries
 sapply(eric_packages,require,character=TRUE)
 }
+
+eric_apps()
+ 
