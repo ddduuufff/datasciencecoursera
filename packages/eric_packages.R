@@ -1,4 +1,4 @@
-.First <- function(){
+eric_apps <- function(){
 #packages
 eric_packages <- c(
   "dplyr",
@@ -17,3 +17,4 @@ for(lib in install.lib) install.packages(lib,dependences=TRUE)
 sapply(eric_packages,require,character=TRUE)
 }
  
+eric_apps()
